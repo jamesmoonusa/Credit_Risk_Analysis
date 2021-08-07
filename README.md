@@ -10,7 +10,7 @@ To predict credit risk we can use several machine learning models.
 4. Combination (Over and Under) Sampling - [Result](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Combinationsampling.PNG)
 5. Balanced Random Forest Classifier - [Result](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Balanced%20Random%20Forest.PNG)
 6. Easy Ensemble AdaBoost Classifier - [Result](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Easy%20Ensemble.PNG)
-7. *ALL MODEL Result Comparison* - ![Chart](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Total%20chart.PNG)
+7. **ALL MODEL Result Comparison** - ![Chart](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Total%20chart.PNG)
 
 ## Summary
 All model shows 100% Precision on Low Risk but low numbers on High Risk Precision. High Risk Sensitivity range is between 59% ~ 69%. Low Risk Sensitivity range is between 45% ~ 91%. Only Low Risk Precision shows 100%. All model has low High Risk F1 score which can refer that imbalance between sensitivity and precision. I believe Sensitivity and Precision are important measure for credit risk prediction, so I do not recommand any of these models to predict credit risk. If one of model must use, then either Balanced Random Forest Classifier or Easy Ensemble AdaBoost Classifier model should use for the prediction.
