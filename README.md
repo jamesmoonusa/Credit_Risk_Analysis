@@ -10,6 +10,6 @@ UCredit risk is an inherently unbalanced classification problem, as good loans e
 4. Combination (Over and Under) Sampling - [Result](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Combinationsampling.PNG)
 5. Balanced Random Forest Classifier - [Result](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Balanced%20Random%20Forest.PNG)
 6. Easy Ensemble AdaBoost Classifier - [Result](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Easy%20Ensemble.PNG)
-7. *ALL MODEL CHART* - [Chart](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Total%20chart.PNG)
+7. *ALL MODEL Result Comparison* - [Chart](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Total%20chart.PNG)
 
 ## Summary
