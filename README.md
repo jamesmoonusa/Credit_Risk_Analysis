@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
-UCredit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we need to employ different techniques to train and evaluate models. 
+To predict credit risk we can use several machine learning models.  
 
 ## Results
 1. Random Oversampling Model - [Result](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Random%20Oversampling.PNG)
@@ -13,3 +13,4 @@ UCredit risk is an inherently unbalanced classification problem, as good loans e
 7. *ALL MODEL Result Comparison* - ![Chart](https://github.com/jamesmoonusa/Credit_Risk_Analysis/blob/main/Total%20chart.PNG)
 
 ## Summary
+All model shows 100% Precision on Low Risk but low Precision on High Risk. High Risk Sensitivity range is between 59% ~ 69%. Low Risk Sensitivity range is between 45% ~ 91%. Only Low Risk Precision shows 100%. All model has low High Risk F1 score which can refer that imbalance between sensitivity and precision. I believe Sensitivity and Precision are important measure for credit risk prediction, so I do not recommand any of these models to predict credit risk. If one of model must use, then either Balanced Random Forest Classifier or Easy Ensemble AdaBoost Classifier model should use for the prediction.
